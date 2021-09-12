@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="meme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kavivanar&display=swap" rel="stylesheet">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <header class="title-container">
+    <h1>Meme Generator</h1>
+  </header>
+<section class="container">
+  <div class="container" id="input">
+      <div class="insert-text-container ">
+          <label class="label">Text: </label>
+          <input type="text" id="text-input" maxlength="100">
+      </div>
+<div class="btn-wrapper">
+    <label for="meme-insert" class="label">Image:</label>
+    <button class="btn">UPLOAD A FILE</button>
+    <input id="meme-insert" name="meme-insert" type="file" accept="image/*" />
+  </div>
+  </div>
+  <div id="meme-image-container">
+      <img id="meme-image" src="meme2.jpg"  height="470px" width="470px" >
+      <h3 id="meme-text"></h3>
+  </div>        
+</section>
+
+<div id="meme-container">
+  <img src="cat1.jpeg" height="100px" width="100px">
+  <img src="cat2.jpeg" height="100px" width="100px">
+  <img src="cat3.jpg" height="100px" width="100px">
+  <img src="cat4.jpg" height="100px" width="100px">
+  <img src="meme1.jpg" height="100px" width="100px">
+  <img src="meme3.jpeg" height="100px" width="100px">
+</div>
+<script src="meme.js"></script>
+</body>
+</html>
