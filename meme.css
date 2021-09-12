@@ -1,0 +1,136 @@
+body {
+  background-image: linear-gradient(45deg , lightgray , slategray);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-container {
+  margin-top: 10px;
+  background-color: aquamarine;
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 1px;
+  margin-bottom: 15px;
+  width: 920px;
+}
+
+.title-container h1 {
+  display: flex;
+  padding-left: 350px;
+  align-content: flex-start;
+  font-family: 'Kavivanar', cursive;
+}
+
+#meme-image-container {
+  position:  absolute;
+  margin-left: 235px;
+  top: 340px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: aliceblue;
+  height: 470px;
+  width: 470px;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 700px;
+  width: 920px;
+  background-color: rgb(255 , 255 , 254);
+}
+
+.insert-text-container {
+  margin: 15px 0 25px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  margin-left: 50px;
+}
+
+.label {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 24px;
+  color: rgb(35 , 41 , 70);
+  font-family: 'Kavivanar', cursive;
+}
+
+#text-input {
+  width: 300px;
+  border: 1px solid black;
+  color: black;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 10px;
+  font-family: 'Kavivanar', cursive;
+}
+
+.btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding-top: 10px;
+  margin-left: 50px;
+  font-family: 'Kavivanar', cursive;
+}
+
+.btn {
+  border: 1px solid black;
+  color: black;
+  background-color: aquamarine;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+  font-family: 'Kavivanar', cursive;
+}
+
+.btn-wrapper #meme-insert[ type = 'file' ] {
+  font-size: 100px;
+  position: absolute;
+  left: 70px;
+  top: 0;
+  opacity: 0;
+  width: 180px;
+  height: 50px;
+}
+
+#meme-text {
+  position: relative;
+  z-index: 3;
+  width: 400px;
+  margin: 350px auto;
+  word-break: break-all;
+  text-shadow: black 5px 5px 5px;
+  color: white;
+  font-size: 30px;
+}
+
+#meme-image {
+  position: absolute;
+  z-index: 2;
+  border-radius: 8px;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Kavivanar', cursive;
+}
+
+#meme-container {
+  background-color:#87CEFF ;
+  width: 900px;
+  padding: 20px 10px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+}
